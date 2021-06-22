@@ -6,7 +6,6 @@
 
 ```
 chainWebpack: (config) => {
-  config.optimization.delete('splitChunks')
   /* module federation plugin import */
   config
     .plugin('module-federation-plugin')
