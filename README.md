@@ -1,6 +1,6 @@
 # module federation demo in vue-cli
 ##  description
-@vue/cli@next
+@vue/cli@next v5 以上，因为是 webpack5 的特性
 
 ### vue.config.js
 
