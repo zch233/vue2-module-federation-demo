@@ -28,7 +28,6 @@
 //     shareScope: 'xxx'
 module.exports = {
   publicPath: 'http://localhost:8084/',
-
   chainWebpack: (config) => {
     config
       .plugin('module-federation-plugin')
@@ -40,6 +39,7 @@ module.exports = {
         },
         shared: {
           vuex: {
+            eager: true,
             singleton: true,
           },
         },
